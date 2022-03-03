@@ -1,6 +1,6 @@
 # E-commerce Back End
 
-The aim of this project was to 
+The aim of this project was to build the back end for an e-commerce website that uses the latest technologies in order to be competetice with other e-commerce companies
 
 ## Table of Contents
 [Technologies Used](#technologies-used) <br>
@@ -11,21 +11,31 @@ The aim of this project was to
 [Questions](#questions) <br>
 
 ## Technologies Used
-* 
-* 
-* 
+* express
+* sequelize
+* mysql
+* JavaScript
 
-with a focus on 
+with a focus on creating back-end models and routes
 
 ---
 
 ## Installation
-Navigate to the root directory in the terminal and initialize the project with **npm install** to install all the proper node module dependencies
+Navigate to the root directory in the terminal and initialize the project with **npm install** to install all the proper node module dependencies.
+
+Update the **.envExample** file to include your own username and password for mysql and then change the file name to be **.env** instead of .envExample
+
+Navigate to the root directory in the terminal and log into mysql with **mysql -u &lt;user> -p** and enter your mysql password.
+
+Initialize the database in mysql using the following commands
+* **source db/schema.sql**
+
+Exit mysql and run **npm run seed** in the terminal to populate the database
 
 ---
 
 ## Use
-Navigate to the root directory in the terminal and type **node server.js** to run the project.
+Navigate to the root directory in the terminal and type **npm start** to run the project.
 
 ---
 
@@ -39,9 +49,7 @@ insert screenshot here
 insert video here
 
 The following link is to this project's github repository
-https://github.com/p-fassbender/
-
-The following link is to this project's live website
+https://github.com/p-fassbender/e-commerce-back-end
 
 ---
 
