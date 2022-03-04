@@ -45,8 +45,7 @@ There are no official tests for this project
 ---
 
 ## Media
-insert screenshot here
-insert video here
+https://user-images.githubusercontent.com/36012762/156836434-7f8ee067-ef23-49c7-b08d-eefcc53b66f2.mp4
 
 The following link is to this project's github repository
 https://github.com/p-fassbender/e-commerce-back-end
